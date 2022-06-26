@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: GarageApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.618 s <<< FAILURE! - in GarageApplicationTests
+LeavePark  Time elapsed: 0.359 s  <<< ERROR!
+java.lang.NullPointerException
+	at GarageApplicationTests.parkVehicle(GarageApplicationTests.java:69)
+	at GarageApplicationTests.LeavePark(GarageApplicationTests.java:119)
+
+testStatusPark  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at GarageApplicationTests.testStatusPark(GarageApplicationTests.java:106)
+
+parkVehicleWithJEEP  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at GarageApplicationTests.parkVehicle(GarageApplicationTests.java:69)
+	at GarageApplicationTests.parkVehicleWithJEEP(GarageApplicationTests.java:51)
+
+parkVehicleWithTRUCK  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at GarageApplicationTests.parkVehicle(GarageApplicationTests.java:69)
+	at GarageApplicationTests.parkVehicleWithTRUCK(GarageApplicationTests.java:56)
+
+parkVehicleWithCar  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at GarageApplicationTests.parkVehicle(GarageApplicationTests.java:69)
+	at GarageApplicationTests.parkVehicleWithCar(GarageApplicationTests.java:46)
+

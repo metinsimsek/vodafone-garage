@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "8e56e79a-f082-44ed-9cdf-58343034291a",
+		"name": "VF-Garage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Include Park",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"plate\":\"34JE178\",\r\n\"color\":\"blue\",\r\n\"vehicleType\":\"CAR\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/garage/include",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"garage",
+						"include"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/garage/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"garage",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Leave",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/garage/leave/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"garage",
+						"leave",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
